@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    color: #15161a;
+    background-color: #f7f7f7;
+}
+
+body {
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title img {
+    width: 48px;
+}
+
+.title h1 {
+    font-size: 36px;
+    margin: 0 0 0 10px;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+}
+
+.container-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.divider {
+    margin-top: 20px;
+}
+
+.social-media img {
+    width: 36px;
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+.content {
+    margin: 0 10px;
+}
+
+@media (max-width: 576px) {
+    .title {
+        display: block;
+    }
+    .title img {
+        width: 96px;
+    }
+}
